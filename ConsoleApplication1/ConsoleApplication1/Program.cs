@@ -16,7 +16,7 @@ namespace ConsoleApplication1
             int a = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Enter 2");
             int b = Convert.ToInt32(Console.ReadLine());
-            int result = a + b;
+            int result = a + b;//
             Console.WriteLine(result);
             Console.ReadKey();//here was a mistake (это пример изменения примера)
         }
