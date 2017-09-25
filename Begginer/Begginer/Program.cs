@@ -42,7 +42,7 @@ namespace Begginer
                 int s3 = s2 / 100;
                 double t = r / 1000;
                 int t2 = Convert.ToInt32(t);
-                int t3 = t2 / 1000;
+                int t3 = t2 / 1000; //проверка
 
                 Console.WriteLine("В этом числе {0} единиц, {1} десятков, {2} сотни и {3} тысяч", e, d3, s3, t3);
             }
