@@ -65,7 +65,14 @@ namespace Begginer
 
             double otvet = (a + b - (f / a)) + (f * a * a) - (a + b);
             Console.WriteLine("\n(a + b - (f / a)) + (f * a * a) - (a + b) = {0}", otvet);
-             
+
+            //четвертая задача_перевод текста в верхний/нижний ригистр
+            Console.WriteLine("\n\n\n");
+            Console.WriteLine("Перевод текста в верхний/нижний регистр\n\nВведите текст:");
+            string text = Console.ReadLine();
+
+            Console.WriteLine("\nПеревод текста в верхний регистр: {0}", text.ToUpper());
+            Console.WriteLine("\nПеревод текста в нижний регистр: {0}", text.ToLower());
 
             Console.ReadLine();
         }
