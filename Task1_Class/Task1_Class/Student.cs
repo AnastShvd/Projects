@@ -13,7 +13,7 @@ namespace Task1_Class
         public int Salary;
         public int Mark1, Mark2, Mark3; 
         //
-        public int NumerateSalary(int Salary) // метод который возвращает значение стипендии за год (int Salary) - это вход метода, там у нас стипендия за месяц
+        public int NumerateSalary(int Salary) // метод который возвращает значение стипендии за год (int Salary) - это вход метода, там у нас стипендия за месяцs
         {
             int result; 
             result = Salary * 9; 
